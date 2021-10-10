@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "paths": {
+      "components/*": ["components/*"],
+      "authentication/*": ["Authentication/*"],
+      "context/*": ["context/*"],
+      "pages/*": ["pages/*"],
+      "graphql/*": ["graphql/*"]
+    }
+  }
+}
